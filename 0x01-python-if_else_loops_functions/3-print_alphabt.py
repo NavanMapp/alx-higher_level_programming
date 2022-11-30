@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-for alphabet in 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','w','x','y','z':
+for alphabet in range(97, 123):
+    if chr(alphabet) is not 'q' and chr(alphabet) is not 'e':
+        print('{}'.format(chr(alphabet)), end='')
