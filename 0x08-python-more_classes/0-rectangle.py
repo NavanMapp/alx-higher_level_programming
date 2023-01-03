@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-"""
-A module with a Rectangle that does nothing
-"""
+# 0-rectangle.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a Rectangle class."""
 
 class Rectangle:
-    """
-    An empty Rectangle class
-    """
-
+    """Represent a rectangle."""
     pass
