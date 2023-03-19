@@ -1,12 +1,7 @@
 #!/usr/bin/node
 // Write a class Rectangle that defines a rectangle
-module.export = class Rectangle {
-    constructor(w, h) {
-        this.height = h;
-        this.width = w;
-    }
-
-    if (w && h === 0){
-        const rec = new();
-    }
+module.exports = class Rectangle {
+  constructor (w, h) {
+    if (w > 0 && h > 0) { [this.width, this.height] = [w, h]; }
+  }
 };
